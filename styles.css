@@ -1,5 +1,66 @@
+/* Set the font family and background color for the entire website */
 body {
-    margin: 0;
-    background: mediumturquoise ;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover {
+    color: #ccc;
+}
+
+/* Style the main section */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the section for the about me section */
+#about {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+#about img {
+    float: left;
+    margin-right: 20px;
+}
+#about h2 {
+    margin-top: 0;
+}
+
+/* Style the section for the projects */
+#projects {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #ccc;
+}
+#projects .project {
+    margin-bottom: 20px;
+}
+#projects .project img {
+    float: left;
+    margin-right: 20px;
+}
+#projects .project h3 {
+    margin-top: 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
