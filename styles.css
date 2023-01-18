@@ -29,18 +29,18 @@ header nav a:hover {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* Style the section for the about me section */
 #about {
-    padding: 30px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px #ccc;
     display: flex;
 }
 #about img {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 #about h2 {
     margin-top: 0;
@@ -48,16 +48,16 @@ main {
 
 /* Style the section for the projects */
 #projects {
-    padding: 30px;
+    padding: 20px;
     background-color: #fff;
     box-shadow: 0px 0px 10px #ccc;
 }
 #projects .project {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     display: flex;
 }
 #projects .project img {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 #projects .project h3 {
     margin-top: 0;
@@ -67,6 +67,6 @@ main {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
