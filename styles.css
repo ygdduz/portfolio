@@ -63,4 +63,40 @@ main {
 #projects {
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px #cc
+    box-shadow: 0px 0px 10px #cc/* Style the section for the projects */
+#projects .project {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap:wrap;
+}
+#projects .project img {
+    width:20%;
+    margin-right: 20px;
+}
+#projects .project h3 {
+    margin-top: 0;
+}
+#projects .project p{
+    width:80%;
+    margin-bottom:20px;
+}
+#projects .project a{
+    padding:10px;
+    background-color:#333;
+    color:#fff;
+    text-decoration: none;
+    border-radius:5px;
+}
+#projects .project a:hover{
+    background-color:#ccc;
+    color:#333;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
