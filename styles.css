@@ -1,3 +1,10 @@
+/* Use a CSS reset to remove the default styling of the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Set the font family and background color for the entire website */
 body {
     font-family: Arial, sans-serif;
@@ -10,8 +17,8 @@ header {
     color: #fff;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 header nav {
     display: flex;
@@ -38,35 +45,22 @@ main {
     background-color: #fff;
     box-shadow: 0px 0px 10px #ccc;
     display: flex;
+    flex-wrap:wrap;
 }
 #about img {
     margin-right: 20px;
+    width:20%;
 }
 #about h2 {
     margin-top: 0;
+}
+#about p{
+    width:80%;
+    margin-bottom:20px;
 }
 
 /* Style the section for the projects */
 #projects {
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px #ccc;
-}
-#projects .project {
-    margin-bottom: 20px;
-    display: flex;
-}
-#projects .project img {
-    margin-right: 20px;
-}
-#projects .project h3 {
-    margin-top: 0;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
+    box-shadow: 0px 0px 10px #cc
