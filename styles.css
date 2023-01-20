@@ -1,3 +1,10 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #ccc;
+    --tertiary-color: #fff;
+    --background-color: #f2f2f2;
+}
+
 /* Use a CSS reset to remove the default styling of the browser */
 * {
     margin: 0;
@@ -8,13 +15,13 @@
 /* Set the font family and background color for the entire website */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: var(--background-color);
 }
 
 /* Style the header */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -24,12 +31,12 @@ header nav {
     display: flex;
 }
 header nav a {
-    color: #fff;
+    color: var(--tertiary-color);
     text-decoration: none;
     padding: 0 10px;
 }
 header nav a:hover {
-    color: #ccc;
+    color: var(--secondary-color);
 }
 
 /* Style the main section */
@@ -42,8 +49,8 @@ main {
 /* Style the section for the about me section */
 #about {
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px #ccc;
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 0px 10px var(--secondary-color);
     display: flex;
     max-height:500px; 
     overflow:scroll;
@@ -63,8 +70,8 @@ main {
 /* Style the section for the projects */
 #projects {
     padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px #ccc;
+    background-color: var(--tertiary-color);
+    box-shadow: 0px 0px 10px var(--secondary-color);
 }
 #projects .project {
     margin-bottom: 20px;
@@ -84,20 +91,22 @@ main {
 }
 #projects .project a{
     padding:10px;
-    background-color:#333;
-    color:#fff;
+    background-color:var(--primary-color);
+    color:var(--tertiary-color);
     text-decoration: none;
     border-radius:5px;
 }
 #projects .project a:hover{
-    background-color:#ccc;
-    color:#333;
+    background-color:var(--secondary-color);
+    color:var(--primary-color);
 }
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--primary-color);
+footer {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
     padding: 20px;
     text-align: center;
 }
